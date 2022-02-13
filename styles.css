@@ -1,0 +1,48 @@
+body{
+    background-color: #000;
+  }
+  
+  p{
+    color: #fff;
+    font-family: arial;
+  }
+  
+  .container{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    margin: auto; 
+    padding: 10px;
+  }
+  
+  .bar{
+    width: 100%;
+    height: 15%;
+    margin-bottom:10px;
+  }
+  
+  .usa{
+    background-color: #4295f5;
+    width: 91.76%;
+  
+  }
+  
+  .china{
+    background-color: #ff0000;
+    width: 67.44%;
+  }
+  
+  .japan{
+    background-color: #f542c2;
+    width: 20.4%;
+  }
+  
+  .germany{
+    background-color: #ffaa00;
+    width: 16.92%;
+  }
+  
+  .uk{
+    background-color: #00a876;
+    width: 12.44%;
+  }
