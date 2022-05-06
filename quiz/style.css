@@ -9,6 +9,7 @@
 body{
     font-family: Overpass, sans-serif;
     background-color: #FFF;
+    font-weight: 300;
     margin: 0 auto;    
 }
 
@@ -38,6 +39,7 @@ h1{
 h2{
     font-family: Overpass, sans-serif;
     font-size: 1.5em;
+    font-weight: 600;
     padding: 0 1em 0 1em;
 }
 
@@ -108,8 +110,6 @@ h3 {
     pointer-events: none;
   } 
 
-  /* ver por que não está funcionando */
-
 p{
     margin: 2em auto;
     padding: 0 1em 0 1em;
@@ -117,7 +117,7 @@ p{
 }
 
 ol{
-    margin: 2em auto;
+    margin: auto 1em auto 1.2em;
     padding: 0 1em 0 1em;
     width: 90%;
 
@@ -159,7 +159,12 @@ strong.dollar-second {
     color: #FFF;
     border-radius: 3px;
     padding: 0.1em;
+    font-weight: 550;
 } 
+
+strong{
+    font-weight: 550;
+}
 
 .infographic {
     /* display: grid; */
