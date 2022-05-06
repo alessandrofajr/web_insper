@@ -48,7 +48,7 @@ function checkBillionaire(event) {
     }   else if(billionaires.classList.contains('Arnault')) {
         question.style.display = 'initial' 
         options.style.display = 'initial'
-        inactiveBillionaires.classList.add('inativo')
+        inactiveBillionaires.classList.add('inactive')
         arnault.classList.add( 'img-clicked' )
         document.getElementById('person').innerHTML = "Bernard Arnault";
         document.getElementById('money').innerHTML = "US$ 158 bilhões";

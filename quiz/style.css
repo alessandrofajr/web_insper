@@ -48,7 +48,7 @@ h3 {
 
 .billionaires{
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-template-rows: repeat(2, auto);
     grid-column-gap: 10px;
     justify-items: center;
@@ -73,7 +73,7 @@ h3 {
     border: solid 4px #007C74;
 }
 
-.inativo { 
+.inactive { 
     pointer-events: none !important; 
 }
 
