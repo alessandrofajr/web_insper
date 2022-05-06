@@ -83,7 +83,7 @@ h3 {
     grid-row:2;
     font-size: 1.2em;
     font-weight: 500;
-    margin: 0.5em;
+    margin: 0.1em;
 }
 
 .answer{
@@ -117,10 +117,25 @@ p{
 }
 
 ol{
-    margin: auto 1em auto 1.2em;
-    padding: 0 1em 0 1em;
-    width: 90%;
+    max-width: 600px;
+    width: 100%;
+    margin: 1em auto;
+    padding-left: 0px;
+    /* padding: 0 1em 0 1em; */
+    /* width: 90%; */
 
+}
+
+@media (min-width:320px) and (max-width:415px)
+{
+    ol{
+        max-width: 330px;
+        width: 100%;
+        margin: 1em auto;
+        padding-left: 0px;
+        /* padding: 0 1em 0 1em; */
+        /* width: 90%; */
+    }
 }
 
 li {
@@ -293,6 +308,15 @@ strong{
     margin-top: 146px;
 }
 
+@media (min-width:320px) and (max-width:360px){
+    .second-arrow-musk{
+        height: 10px;
+        width: 65px;
+        border-top: solid 2px #A7A7A7;
+        margin-top: 126px;
+    }
+}
+
 .third-arrow-musk{
     height: 170px;
     width: 35.5px;
@@ -300,6 +324,16 @@ strong{
     border-right: solid 2px #A7A7A7;
     margin-top: -113px;
 
+}
+
+@media (min-width:320px) and (max-width:360px){
+    .third-arrow-musk{
+        height: 170px;
+        width: 35.5px;
+        border-top: solid 2px #A7A7A7;
+        border-right: solid 2px #A7A7A7;
+        margin-top: -133px;
+}
 }
 
 .third-arrow-sub-musk{
@@ -318,6 +352,15 @@ strong{
     margin-top: 270px;    
 }
 
+@media (min-width:320px) and (max-width:360px){
+    .fourth-arrow-musk{
+        height: 50px;
+        width: 65px;
+        border-bottom: solid 2px #A7A7A7;
+        margin-top: 250px;    
+    }
+}
+
 .fourth-arrow-sub-musk{
     height: 113px;
     width: 30px;
@@ -331,6 +374,15 @@ strong{
     width: 65px;
     border-bottom: solid 2px #A7A7A7;
     margin-top: 1px;
+}
+
+@media (min-width:320px) and (max-width:360px){
+    .fifth-arrow-musk{
+        height: 10px;
+        width: 65px;
+        border-bottom: solid 2px #A7A7A7;
+        margin-top: -3px;
+    }
 }
 
 .info-content-1-bezos{
@@ -444,6 +496,15 @@ strong{
     margin-top: 146px;
 }
 
+@media (min-width:320px) and (max-width:360px){
+    .second-arrow-bezos{
+        height: 10px;
+        width: 65px;
+        border-top: solid 2px #A7A7A7;
+        margin-top: 126px;
+    }
+}
+
 .third-arrow-bezos{
     height: 170px;
     width: 35.5px;
@@ -451,6 +512,17 @@ strong{
     border-right: solid 2px #A7A7A7;
     margin-top: -113px;
 
+}
+
+@media (min-width:320px) and (max-width:360px){
+    .third-arrow-bezos{
+        height: 170px;
+        width: 35.5px;
+        border-top: solid 2px #A7A7A7;
+        border-right: solid 2px #A7A7A7;
+        margin-top: -133px;
+    
+    }
 }
 
 .third-arrow-sub-bezos{
@@ -469,6 +541,15 @@ strong{
     margin-top: -55px;    
 }
 
+@media (min-width:320px) and (max-width:360px){
+    .fourth-arrow-bezos{
+        height: 50px;
+        width: 65px;
+        border-bottom: solid 2px #A7A7A7;
+        margin-top: -75px;    
+    }
+}
+
 .fourth-arrow-sub-bezos{
     height: 113px;
     width: 30px;
@@ -482,6 +563,15 @@ strong{
     width: 65px;
     border-bottom: solid 2px #A7A7A7;
     margin-top: 1px;
+}
+
+@media (min-width:320px) and (max-width:360px){
+    .fifth-arrow-bezos{
+        height: 10px;
+        width: 65px;
+        border-bottom: solid 2px #A7A7A7;
+        margin-top: -3px;
+    }
 }
 
 .info-content-1-arnault{
@@ -595,13 +685,31 @@ strong{
     margin-top: 146px;
 }
 
+@media (min-width:320px) and (max-width:360px){
+    .second-arrow-arnault{
+        height: 10px;
+        width: 65px;
+        border-top: solid 2px #A7A7A7;
+        margin-top: 127px;
+    }
+}
+
 .third-arrow-arnault{
     height: 170px;
     width: 35.5px;
     border-top: solid 2px #A7A7A7;
     border-right: solid 2px #A7A7A7;
     margin-top: -113px;
+}
 
+@media (min-width:320px) and (max-width:360px){
+    .third-arrow-arnault{
+        height: 170px;
+        width: 35.5px;
+        border-top: solid 2px #A7A7A7;
+        border-right: solid 2px #A7A7A7;
+        margin-top: -133px;
+    }
 }
 
 .third-arrow-sub-arnault{
@@ -619,6 +727,16 @@ strong{
     border-top: solid 2px #A7A7A7;
     border-right: solid 2px #A7A7A7;
     margin-top: -70px;
+}
+
+@media (min-width:320px) and (max-width:360px){
+    .fourth-arrow-arnault{
+        height: 50px;
+        width: 35.5px;
+        border-top: solid 2px #A7A7A7;
+        border-right: solid 2px #A7A7A7;
+        margin-top: -90px;
+    }
 }
 
 .fourth-arrow-sub-arnault{

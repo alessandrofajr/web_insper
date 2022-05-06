@@ -24,7 +24,7 @@ function checkBillionaire(event) {
     if (billionaires.classList.contains('Musk')) {
         question.style.display = 'initial' //exibe a pergunta do Musk. Há mudanças para cada bilionário
         options.style.display = 'initial' //exibe as opções para o Musk. Há mudanças para cada bilionário
-        inactiveBillionaires.classList.add('inativo') //desativa a opção de clicar em outro bilionário
+        inactiveBillionaires.classList.add('inactive') //desativa a opção de clicar em outro bilionário
         musk.classList.add( 'img-clicked' ) //coloca a borda no bilionário selecionado
         document.getElementById('person').innerHTML = "Elon Musk"; //altera o corpo do texto que descreve a fortuna
         document.getElementById('money').innerHTML = "US$ 219 bilhões";
@@ -33,7 +33,7 @@ function checkBillionaire(event) {
     }   else if (billionaires.classList.contains('Bezos')) {
         question.style.display = 'initial' 
         options.style.display = 'initial'
-        inactiveBillionaires.classList.add('inativo')
+        inactiveBillionaires.classList.add('inactive')
         bezos.classList.add( 'img-clicked' )
         document.getElementById('person').innerHTML = "Jeff Bezos";
         document.getElementById('money').innerHTML = "US$ 171 bilhões";
