@@ -3,9 +3,14 @@ let question = document.querySelector( '.question' )
 let quiz = document.querySelector( '.quiz' )
 let alternatives = document.querySelectorAll( 'li' )
 let result
-let answer;
-let options;
-let selectedBillionaire;
+let answer
+let options
+let selectedBillionaire
+let inactiveBillionaires = document.querySelector( '.billionaires' )
+let musk = document.querySelector( '.Musk' )
+let bezos = document.querySelector( '.Bezos' )
+let arnault = document.querySelector( '.Arnault' )
+let playAgain = document.querySelector( '.play-again' )
 
 function checkBillionaire(event) {
 
@@ -17,6 +22,8 @@ function checkBillionaire(event) {
     if (billionaires.classList.contains('Musk')) {
         question.style.display = 'initial'
         options.style.display = 'initial'
+        inactiveBillionaires.classList.add('inativo')
+        musk.classList.add( 'img-clicked' )
         document.getElementById('person').innerHTML = "Elon Musk";
         document.getElementById('money').innerHTML = "US$ 219 bilhões";
         document.getElementById('company').innerHTML = "Tesla";
@@ -28,6 +35,8 @@ function checkBillionaire(event) {
     }   else if (billionaires.classList.contains('Bezos')) {
         question.style.display = 'initial' 
         options.style.display = 'initial'
+        inactiveBillionaires.classList.add('inativo')
+        bezos.classList.add( 'img-clicked' )
         document.getElementById('person').innerHTML = "Jeff Bezos";
         document.getElementById('money').innerHTML = "US$ 171 bilhões";
         document.getElementById('company').innerHTML = "Amazon";
@@ -39,6 +48,8 @@ function checkBillionaire(event) {
     }   else if(billionaires.classList.contains('Arnault')) {
         question.style.display = 'initial' 
         options.style.display = 'initial'
+        inactiveBillionaires.classList.add('inativo')
+        arnault.classList.add( 'img-clicked' )
         document.getElementById('person').innerHTML = "Bernard Arnault";
         document.getElementById('money').innerHTML = "US$ 158 bilhões";
         document.getElementById('company').innerHTML = "LVMH (Louis Vuitton)";
@@ -57,7 +68,9 @@ for (let billionaire of billionaires){
 function checkAnswer(event) {
     let alternative = event.target
     alternative.classList.add( 'clicked' )
-
+    options.classList.add( 'quiz-clicked' )
+    playAgain.style.display = 'flex'
+    
     result = document.querySelector( '.result-' + selectedBillionaire)
 
     if ( alternative.classList.contains( 'correct' ) ) {
@@ -72,3 +85,11 @@ function checkAnswer(event) {
 for (let alternative of alternatives){
     alternative.addEventListener('click', checkAnswer)
 }
+
+let refreshButton = document.querySelector('.refresh-button');
+
+let refreshPage = () => {
+    location.reload();
+}
+
+refreshButton.addEventListener('click', refreshPage)

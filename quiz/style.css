@@ -69,6 +69,14 @@ h3 {
     border: solid 4px #007C74;
 }
 
+.img-clicked { 
+    border: solid 4px #007C74;
+}
+
+.inativo { 
+    pointer-events: none !important; 
+}
+
 .img-caption{ 
     grid-row:2;
     font-size: 1.2em;
@@ -141,6 +149,10 @@ li.clicked.correct {
     background: #007C74;
     color: #FFF;
   }
+
+.quiz-clicked{
+    pointer-events: none !important
+}
 
 strong.dollar-second {
     background-color: #007C74;
@@ -656,7 +668,7 @@ strong.dollar-second {
 }
 
 .footer hr{
-    margin-top: 300px;
+    margin-top: 100px;
     font-size: 1em;
     color: #292929
 
@@ -677,3 +689,33 @@ strong.dollar-second {
 .footer a:hover{
     color: #01544e;
 }
+
+.play-again{
+    display: none;
+    margin-top: 250px;
+}
+
+.refresh-button{
+    background-color: #007C74;
+    color: #FFF;
+    width: 235px;
+    height: 50px;
+    border: #007C74;
+    border-radius: 10px;
+    font-family: Inter, sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 1em auto;
+    padding: 0;
+    text-align: center;
+}
+
+.refresh-button:hover{
+    background-color: #01544e;
+    color: #FFF;
+    width: 235px;
+    height: 50px;
+    border: #01544e;
+    border-radius: 10px;
+}
+
