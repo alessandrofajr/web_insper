@@ -305,7 +305,7 @@ strong{
     height: 10px;
     width: 65px;
     border-top: solid 2px #A7A7A7;
-    margin-top: 146px;
+    margin-top: 147px;
 }
 
 @media (min-width:320px) and (max-width:360px){
@@ -373,7 +373,7 @@ strong{
     height: 10px;
     width: 65px;
     border-bottom: solid 2px #A7A7A7;
-    margin-top: 1px;
+    margin-top: -4px;
 }
 
 @media (min-width:320px) and (max-width:360px){
@@ -510,7 +510,7 @@ strong{
     width: 35.5px;
     border-top: solid 2px #A7A7A7;
     border-right: solid 2px #A7A7A7;
-    margin-top: -113px;
+    margin-top: -110px;
 
 }
 
@@ -538,7 +538,7 @@ strong{
     height: 50px;
     width: 65px;
     border-bottom: solid 2px #A7A7A7;
-    margin-top: -55px;    
+    margin-top: -58px;    
 }
 
 @media (min-width:320px) and (max-width:360px){
@@ -562,7 +562,7 @@ strong{
     height: 10px;
     width: 65px;
     border-bottom: solid 2px #A7A7A7;
-    margin-top: 1px;
+    margin-top: -3px;
 }
 
 @media (min-width:320px) and (max-width:360px){
@@ -699,7 +699,7 @@ strong{
     width: 35.5px;
     border-top: solid 2px #A7A7A7;
     border-right: solid 2px #A7A7A7;
-    margin-top: -113px;
+    margin-top: -110px;
 }
 
 @media (min-width:320px) and (max-width:360px){
@@ -751,8 +751,8 @@ strong{
     height: 10px;
     width: 65px;
     border-bottom: solid 2px #A7A7A7;
-    margin-bottom: 0px;
-    padding-bottom: 15px;
+    margin-bottom: -5px;
+    padding-bottom: 13px;
 }
 
 .years{
