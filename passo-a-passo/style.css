@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:100,200,300,400,500,600,700,800,900');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F2E5CB;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.scoreboard {
+    flex: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.board{
+    background-color: #000;
+    padding: 10px;
+    max-width: 630px;
+    max-height: 350px;
+    position: fixed;
+}
+
+.board-border{
+    border: solid 2px #fff;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-column-gap: 10px;
+    justify-items: center;
+}
+
+.board h3{
+    font-family: Inconsolata, serif;
+    font-size: 1.9em;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.board h4{
+    font-family: Inconsolata, serif;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.board p{
+    font-family: Orbitron, serif;
+    color: #F1241E;
+    font-weight: 400;
+    font-size: 3.2em;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.team-home{
+    grid-row: 1;
+    grid-column: 1;
+    margin-top: -20px;
+    margin-left: -35px;
+}
+
+.score-home{
+    max-width: 130px;
+    width: 130px;
+    max-height: 100px;
+    margin-top: 60px;
+    border: solid 2px #fff;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -35px;
+}
+
+.team-away{
+    grid-row: 1;
+    grid-column: 3;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.score-away{
+    max-width: 130px;
+    width: 130px;
+    max-height: 100px;
+    margin-top: 60px;
+    border: solid 2px #fff;
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 35px;
+}
+
+.clock{
+    max-width: 230px;
+    width: 230px;
+    max-height: 100px;
+    border: solid 2px #fff;
+    margin-top: 10px;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.halftime{
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 100px;
+    margin-left: -150px;
+}
+
+.half{
+    max-width: 80px;
+    width: 80px;
+    max-height: 100px;
+    border: solid 2px #fff;
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 40px;
+}
+
+.milestones {
+    flex: 50%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.milestones h2{
+    font-family: Racing Sans One;
+    font-size: 2.6em;
+    text-align: center;
+}
+
+.milestones p{
+    font-family: Nunito, sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.milestones img{
+    opacity: 20%;
+    position: fixed;
+    margin-top: 0px;
+    height: 100%;
+}
+
+.milestones-content{
+    display: block;
+    max-width: 480px;
+    height: 100vh;
+}
+
+.milestone-0{
+    height: 100vh;
+    margin-top: 70%;
+    margin-left: 15px;
+}
+
+.milestone-1{
+    height: 100vh;
+    margin-left: 15px;
+    margin-top: -10%;
+}
+
+.milestone-2{
+    height: 100vh;
+    margin-left: 15px;
+    margin-top: -10%;
+}
+
+.milestone-3{
+    height: 100vh;
+    margin-left: 15px;
+    margin-top: -10%;
+}
+
+.milestone-4{
+    height: 100vh;
+    margin-left: 15px;
+    margin-top: -10%;
+}
+
+.milestone-5{
+    height: 100vh;
+    margin-left: 15px;
+}
+
+.gatilhos{
+    position: absolute;
+  }
+  .gatilhos > div{
+    border:4px dotted red;
+    height: 100vh;
+    width: 98.5vw;
+    z-index:100;
+    padding: 0;
+  }

@@ -1,0 +1,37 @@
+<svg width="636" height="1022" viewBox="0 0 636 1022" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.36713" y="3.5" width="631.828" height="1015.01" stroke="black" stroke-width="3"/>
+<rect x="219.5" y="780.5" width="197" height="238" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M238.265 1017L238.265 779H396.596V1017" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M397.777 785.526C397.777 741.305 361.929 705.458 317.709 705.458C273.488 705.458 237.641 741.305 237.641 785.526" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M397.777 785.526C397.777 829.115 361.929 864.45 317.709 864.45C273.488 864.45 237.641 829.115 237.641 785.526" stroke="#0C0C0C" stroke-width="1.5" stroke-linecap="square" stroke-dasharray="15 15"/>
+<path d="M569.204 1016.58C569.204 1016.58 570.81 952.602 563.462 912.671C550.376 841.558 535.728 794.52 481.354 746.529C429.93 701.142 359.054 684.869 316.565 684.869" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M66.2136 1016.58C66.2136 1016.58 64.6148 952.602 71.9295 912.671C84.9559 841.558 99.5379 794.52 153.665 746.529C204.857 701.142 275.412 684.869 317.709 684.869" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="834.5" x2="228" y2="834.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="880.5" x2="228" y2="880.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="951.5" x2="228" y2="951.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="958.5" x2="228" y2="958.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="837.5" x2="397" y2="837.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="883.5" x2="397" y2="883.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="954.5" x2="397" y2="954.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="961.5" x2="397" y2="961.5" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M343 979H336M336 979H293H299.5V987L314 1008V1020H322.5V1008L336 987V979Z" stroke="black" stroke-width="3"/>
+<line x1="318" y1="978" x2="318" y2="973" stroke="black" stroke-width="6"/>
+<circle cx="318" cy="962" r="10.5" stroke="black" stroke-width="3"/>
+<rect x="1.5" y="-1.5" width="197" height="237.905" transform="matrix(1 0 0 -1 218.934 239.905)" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M239.199 4.99884L239.199 242.905H397.53V4.99884" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M398.712 236.382C398.712 280.585 362.864 316.419 318.643 316.419C274.423 316.419 238.575 280.585 238.575 236.382" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M398.712 236.382C398.712 192.81 362.864 157.489 318.643 157.489C274.423 157.489 238.575 192.81 238.575 236.382" stroke="#0C0C0C" stroke-width="1.5" stroke-linecap="square" stroke-dasharray="15 15"/>
+<path d="M570.138 5.41846C570.138 5.41846 571.744 69.3714 564.396 109.287C551.31 180.372 536.662 227.391 482.289 275.363C430.865 320.733 359.989 337 317.499 337" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M67.1479 5.41846C67.1479 5.41846 65.5492 69.3714 72.8638 109.287C85.8902 180.372 100.472 227.391 154.6 275.363C205.791 320.733 276.346 337 318.643 337" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 240.934 188.927)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 240.934 142.945)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 240.934 71.9725)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 240.934 64.9753)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 409.934 185.928)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 409.934 139.946)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 409.934 68.9737)" stroke="#0C0C0C" stroke-width="3"/>
+<line y1="-1.5" x2="12" y2="-1.5" transform="matrix(-1 0 0 1 409.934 61.9765)" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M343.934 42.9839H336.934M336.934 42.9839H293.934H300.434V34.9871L314.934 13.9953V2.00004H323.434V13.9953L336.934 34.9871V42.9839Z" stroke="black" stroke-width="3"/>
+<line y1="-3" x2="4.99804" y2="-3" transform="matrix(0 1 1 0 321.934 43.9836)" stroke="black" stroke-width="6"/>
+<path d="M329.434 59.9772C329.434 54.1814 324.734 49.482 318.934 49.482C313.135 49.482 308.434 54.1814 308.434 59.9772C308.434 65.7731 313.135 70.4725 318.934 70.4725C324.734 70.4725 329.434 65.7731 329.434 59.9772Z" stroke="black" stroke-width="3"/>
+</svg>
