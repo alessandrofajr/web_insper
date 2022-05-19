@@ -1,0 +1,20 @@
+<svg width="636" height="1020" viewBox="0 0 636 1020" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.36713" y="1.5" width="631.828" height="1015.01" stroke="black" stroke-width="3"/>
+<rect x="219.5" y="778.5" width="197" height="238" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M238.265 1015L238.265 777H396.596V1015" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M397.777 783.526C397.777 739.305 361.929 703.458 317.709 703.458C273.488 703.458 237.641 739.305 237.641 783.526" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M397.777 783.526C397.777 827.115 361.929 862.45 317.709 862.45C273.488 862.45 237.641 827.115 237.641 783.526" stroke="#0C0C0C" stroke-width="1.5" stroke-linecap="square" stroke-dasharray="15 15"/>
+<path d="M569.204 1014.58C569.204 1014.58 570.81 950.602 563.462 910.671C550.376 839.558 535.728 792.52 481.354 744.529C429.93 699.142 359.054 682.869 316.565 682.869" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M66.2136 1014.58C66.2136 1014.58 64.6148 950.602 71.9295 910.671C84.9559 839.558 99.5379 792.52 153.665 744.529C204.857 699.142 275.412 682.869 317.709 682.869" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="832.5" x2="228" y2="832.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="878.5" x2="228" y2="878.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="949.5" x2="228" y2="949.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="240" y1="956.5" x2="228" y2="956.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="835.5" x2="397" y2="835.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="881.5" x2="397" y2="881.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="952.5" x2="397" y2="952.5" stroke="#0C0C0C" stroke-width="3"/>
+<line x1="409" y1="959.5" x2="397" y2="959.5" stroke="#0C0C0C" stroke-width="3"/>
+<path d="M343 977H336M336 977H293H299.5V985L314 1006V1018H322.5V1006L336 985V977Z" stroke="black" stroke-width="3"/>
+<line x1="318" y1="976" x2="318" y2="971" stroke="black" stroke-width="6"/>
+<circle cx="318" cy="960" r="10.5" stroke="black" stroke-width="3"/>
+</svg>

@@ -150,6 +150,7 @@ html,body{
     font-family: Racing Sans One;
     font-size: 2.6em;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .milestones p{
@@ -159,10 +160,18 @@ html,body{
 }
 
 .milestones img{
+    height: 100%;
+}
+
+.court{
+    display: block;
     opacity: 20%;
     position: fixed;
-    margin-top: 0px;
     height: 100%;
+}
+
+.court-mobile{
+    display: none;
 }
 
 .milestones-content{
@@ -180,39 +189,271 @@ html,body{
 .milestone-1{
     height: 100vh;
     margin-left: 15px;
-    margin-top: -10%;
+    margin-top: -7%;
 }
 
 .milestone-2{
     height: 100vh;
     margin-left: 15px;
-    margin-top: -10%;
+    margin-top: -7%;
 }
 
 .milestone-3{
     height: 100vh;
     margin-left: 15px;
-    margin-top: -10%;
+    margin-top: -5%;
 }
 
 .milestone-4{
     height: 100vh;
     margin-left: 15px;
-    margin-top: -10%;
+    margin-top: -4%;
 }
 
 .milestone-5{
     height: 100vh;
     margin-left: 15px;
+    margin-top: -13%;
 }
 
 .gatilhos{
     position: absolute;
+    top: 0;
   }
-  .gatilhos > div{
-    border:4px dotted red;
+
+.gatilhos > div{
+    /* border:4px dotted red; */
     height: 100vh;
     width: 98.5vw;
     z-index:100;
     padding: 0;
-  }
+}
+
+.gatilhos > div:last-child { 
+    background-color: #F2E5CB;
+}
+
+.gatilhos > div:last-child h2{ 
+    font-family: Racing Sans One;
+    font-size: 2.6em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gatilhos > div:last-child p{ 
+    font-family: Nunito, sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gatilhos > div:last-child img{ 
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+
+.milestone-6{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.footer{
+    background-color: #F2E5CB;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.footer hr{
+    max-width: 1000px;
+    background-color: #000; 
+    height: 1px; 
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.footer p{
+    font-size: 1em;
+    padding: 0.4em auto;
+    margin: 1em auto;
+}
+
+.footer a{
+    color: #000;
+}
+
+.footer a:hover{
+    color: rgb(50, 50, 50);
+}
+
+@media (min-width:320px) and (max-width:1299px){
+
+    #content{
+        display: block;
+        max-width: 650px;
+        margin: 1em auto;
+        width: 99vw;
+    }
+    .scoreboard{
+        display: block;
+    }
+
+    .board{
+        background-color: #000;
+        padding: 10px;
+        max-width: 650px;
+        width: 370px;
+        max-height: 350px;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .board-border{
+        border: solid 2px #fff;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        grid-column-gap: 5px;
+        justify-items: center;
+    }
+    
+    .board h3{
+        font-family: Inconsolata, serif;
+        font-size: 1.3em;
+        color: #FFF;
+        font-weight: 700;
+    }
+    
+    .board h4{
+        font-family: Inconsolata, serif;
+        color: #FFF;
+        font-weight: 900;
+        font-size: 1em;
+    }
+    
+    .board p{
+        font-family: Orbitron, serif;
+        color: #F1241E;
+        font-weight: 400;
+        font-size: 1.8em;
+        padding: 0;
+        margin: 0;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        text-align: center;
+    }
+    
+    .team-home{
+        grid-row: 1;
+        grid-column: 1;
+        margin-top: -15px;
+        margin-left: -35px;
+    }
+    
+    .score-home{
+        max-width: 62px;
+        max-height: 48px;
+        margin-top: 35px;
+        border: solid 2px #fff;
+        grid-row: 1;
+        grid-column: 1;
+        margin-left: -30px;
+    }
+
+    .score-home p{
+        margin-top: 3px;
+    }
+    
+    .team-away{
+        grid-row: 1;
+        grid-column: 3;
+        margin-top: -15px;
+        margin-left: 35px;
+    }
+    
+    .score-away{
+        max-width: 62px;
+        max-height: 48px;
+        margin-top: 35px;
+        border: solid 2px #fff;
+        grid-row: 1;
+        grid-column: 3;
+        margin-left: 35px;
+    }
+
+    .score-away p{
+        margin-top: 3px;
+    }
+    
+    .clock{
+        max-width: 120px;
+        max-height: 45px;
+        border: solid 2px #fff;
+        margin-top: 10px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+    
+    .halftime{
+        grid-row: 2;
+        grid-column: 2;
+        margin-top: 30px;
+        margin-left: -110px;
+    }
+    
+    .half{
+        max-width: 38px;
+        max-height: 47px;
+        border: solid 2px #fff;
+        grid-row: 2;
+        grid-column: 2;
+        margin-top: 20px;
+    }
+    .half p{
+        margin-top: 3px;
+    }
+
+    .milestones img{
+        height:100%;
+        width: auto;
+        opacity: 20%;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .milestones img{
+        opacity: 20%;
+        position: fixed;
+        margin-top: 0px;
+        height: 100%;
+    }
+
+    .court-mobile{
+        display: block;
+    }
+
+    .court{
+        display: none;
+    }    
+
+    .gatilhos > div{
+        border:4px dotted red;
+        height: 100vh;
+        width: 100vw;
+        z-index:100;
+        padding: 0;
+    }
+
+    .gatilhos > div:last-child img{ 
+        max-width: 900px;
+        display: none;
+        margin: 0 auto;
+    }
+    
+}
+
+/* media query no final css. existe um equivalente do media query com window no JS */
