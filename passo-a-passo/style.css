@@ -420,6 +420,10 @@ html,body{
         margin-top: 3px;
     }
 
+    .milestones-content{
+        margin-right: 15px;
+    }
+
     .milestones img{
         height:100%;
         width: auto;
