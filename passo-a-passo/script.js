@@ -1,21 +1,7 @@
+// define uma variável para selecionar a div board
+let scoreboard = document.querySelector( '.board' )
 
-
-// window.addEventListener('resize', escutaResize);
-
-// function escutaResize(event){
-//     if (window.innerWidth > 1000){
-//         console.log("Desktop!")
-//     }
-//     else{
-//         console.log("Celular!")
-//     }
-// }
-
-// console.log(window.innerWidth)
-
-
-// 1. criar uma função para verificar 
-// se o gatilho chegou ao topo da página
+// função para verificar se o gatilho chegou ao topo da página
 function escutaScroll(event){
     // A função deve...
     // Pegar a lista de gatilhos
@@ -72,13 +58,15 @@ function escutaScroll(event){
                 document.getElementById('score-bra').innerHTML = "120";
                 document.getElementById('timer').innerHTML = "00:00";
                 document.getElementById('which-half').innerHTML = "2";
+                scoreboard.style.display = 'initial' 
              }
-
-            console.log(alvo)
+             //ao chegar no 6º alvo, esconde o scoreboard
+             else if (alvo == '6'){
+                scoreboard.style.display = 'none' 
+             }
         }
     }
 }
 
-// 2. pedir ao navegador para escutar 
-// o evento de rolagem da página
+// 2. pede ao navegador para escutar o evento de rolagem da página
 window.addEventListener('scroll', escutaScroll);
