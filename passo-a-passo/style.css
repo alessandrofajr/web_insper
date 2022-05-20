@@ -8,6 +8,7 @@ html,body{
     height: 100%;
     margin: 0;
     background-color: #F2E5CB;
+    scroll-snap-type: y mandatory;
   }
 
 * {
@@ -226,6 +227,7 @@ html,body{
     width: 98.5vw;
     z-index:100;
     padding: 0;
+    scroll-snap-align: start;
 }
 
 .gatilhos > div:last-child { 
@@ -263,6 +265,7 @@ html,body{
     background-color: #F2E5CB;
     padding-top: 20px;
     padding-bottom: 80px;
+    scroll-snap-align: end;
 }
 
 .footer hr{
@@ -467,6 +470,7 @@ html,body{
         width: 100vw;
         z-index:100;
         padding: 0;
+        scroll-snap-align: start;
     }
 
     .gatilhos > div:last-child { 
@@ -498,7 +502,8 @@ html,body{
     }
     
     .milestone-6{
-        padding-top: 10px;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
         margin-top: 40px;
         margin-left: 15px;
         margin-right: 15px;
@@ -508,5 +513,6 @@ html,body{
         background-color: #F2E5CB;
         padding-top: 20px;
         padding-bottom: 20px;
+        scroll-snap-align: end;
     }
 }
