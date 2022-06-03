@@ -15,7 +15,11 @@ let billionaireWealth
 let userInput = document.querySelectorAll('input')
 let userCalc = document.querySelectorAll('output')
 
-userInput.forEach(input => input.addEventListener('input', validate))
+// userInput.forEach(input => input.addEventListener('input', validate))
+
+for (let userInputs of userInput){
+    userInputs.addEventListener('input', validate)
+}
 
 function validate() {
 
@@ -28,20 +32,19 @@ function validate() {
     // Se valor for maior que 0
     if ( valor > 0 ) {
       calculate( valor )
-    }
+    }  
 
-    console.log(billionaireWealth)
-  
+    console.log(userInput)
+    // console.log(userInputs)
 }
 
-function calculate( valor ) {
+function calculate(valor) {
     let userWealth = (valor / 5) * 12
     let wealth = billionaireWealth / userWealth
     mostrar(wealth)
-    console.log(billionaireWealth)
 }
 
-function mostrar( yearsFortune ) {
+function mostrar(yearsFortune) {
     userCalc.textContent = yearsFortune
 }
 
@@ -71,7 +74,7 @@ function checkBillionaire(event) {
         document.getElementById('money').innerHTML = "US$ 171 bilhões";
         document.getElementById('company').innerHTML = "Amazon";
         document.getElementById('person1').innerHTML = "Jeff Bezos";
-        billionaireWealth = 119000000000
+        billionaireWealth = 171000000000
     }   else if(billionaires.classList.contains('Arnault')) {
         question.style.display = 'initial' 
         options.style.display = 'initial'
@@ -81,9 +84,8 @@ function checkBillionaire(event) {
         document.getElementById('money').innerHTML = "US$ 158 bilhões";
         document.getElementById('company').innerHTML = "LVMH (Louis Vuitton)";
         document.getElementById('person1').innerHTML = "Bernard Arnault";
-        billionaireWealth = 19000000000
+        billionaireWealth = 158000000000
 }
-console.log(billionaireWealth)
 
 }
 
