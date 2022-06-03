@@ -12,19 +12,19 @@ let arnault = document.querySelector( '.Arnault' ) //variável que seleciona a c
 let playAgain = document.querySelector( '.play-again' ) //variável que seleciona a classe que mostra o botão de jogar novamente
 let billionaireWealth
 
-let userInput = document.querySelectorAll('input')
-let userCalc = document.querySelectorAll('output')
+let userInputs = document.querySelectorAll('input')
+// let userCalcs = document.querySelectorAll('output')
 
 // userInput.forEach(input => input.addEventListener('input', validate))
 
-for (let userInputs of userInput){
-    userInputs.addEventListener('input', validate)
+for (let userInput of userInputs ){
+    userInput.addEventListener('input', validate)
 }
 
-function validate() {
+function validate( event ) {
 
     // Pega a string que foi digitada
-    let valor = userInput.value 
+    let valor = event.target.value 
     
     // Força a conversão para número inteiro
     valor = parseInt( valor )
@@ -34,8 +34,6 @@ function validate() {
       calculate( valor )
     }  
 
-    console.log(userInput)
-    // console.log(userInputs)
 }
 
 function calculate(valor) {
@@ -45,7 +43,9 @@ function calculate(valor) {
 }
 
 function mostrar(yearsFortune) {
-    userCalc.textContent = yearsFortune
+
+    let userCalc = answer.querySelector( 'output' )
+    userCalc.textContent = Math.round( yearsFortune )
 }
 
 function checkBillionaire(event) {
