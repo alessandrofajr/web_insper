@@ -10,13 +10,10 @@ let musk = document.querySelector( '.Musk' ) //variável que seleciona a classe 
 let bezos = document.querySelector( '.Bezos' ) //variável que seleciona a classe da img do bilionário escolhido para colocar borda ao redor da foto após clique
 let arnault = document.querySelector( '.Arnault' ) //variável que seleciona a classe da img do bilionário escolhido para colocar borda ao redor da foto após clique
 let playAgain = document.querySelector( '.play-again' ) //variável que seleciona a classe que mostra o botão de jogar novamente
+let userInputs = document.querySelectorAll('input')
 let billionaireWealth
 
-let userInputs = document.querySelectorAll('input')
-// let userCalcs = document.querySelectorAll('output')
-
-// userInput.forEach(input => input.addEventListener('input', validate))
-
+// Loop para selecionar todos os inputs do HTML
 for (let userInput of userInputs ){
     userInput.addEventListener('input', validate)
 }
@@ -37,16 +34,29 @@ function validate( event ) {
 }
 
 function calculate(valor) {
-    let userWealth = (valor / 5) * 12
+    // Pega o valor colocado pelo usuário, divide por 5 (considerando o dólar) e multiplica por 12 (salário anual)
+    let userWealth = (valor / 5) * 12 
+    // Divide a fortuna do bilionário pela fortuna do usuário
     let wealth = billionaireWealth / userWealth
     mostrar(wealth)
 }
 
 function mostrar(yearsFortune) {
-
     let userCalc = answer.querySelector( 'output' )
-    userCalc.textContent = Math.round( yearsFortune )
+    userCalc.textContent = getNumberUnit(yearsFortune)
 }
+
+getNumberUnit = function(yearsFortune) {
+    var units = ["milhões","bilhões","trilhões"]
+    var unit = Math.floor((yearsFortune / 1.0e+1).toFixed(0).toString().length)
+    var r = unit%3
+    var x =  Math.abs(Number(yearsFortune))/Number('1.0e+'+(unit-r)).toFixed(2)
+    return x.toFixed(2)+ ' ' + units[Math.floor(unit / 3) - 2]
+}
+
+// let formata = new Intl.NumberFormat('pt-BR');
+// formata.format(yearsFortune)
+
 
 function checkBillionaire(event) {
 
