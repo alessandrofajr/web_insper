@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mapa</title>
+</head>
+<body>
+    <div id="uf">
+        <div id="uf-titulo"></div>
+        <div id="uf-valor"></div> 
+    </div>
+    <div id="mapa-caixa">
+        <svg id="mapa"></svg>
+    </div>
+
+    <div id="footer">
+        <p><strong>Dados</strong>: <a href="https://www.ibge.gov.br/home/geociencias/cartografia/mapas.html">IBGE</a>, <a href="https://informacoes.anatel.gov.br/paineis/acessos/banda-larga-fixa">Anatel</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

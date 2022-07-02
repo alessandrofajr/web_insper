@@ -1,0 +1,100 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+#uf{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: space-between;
+}
+
+#uf-titulo{
+    margin-top: 35px;
+    padding-bottom: 20px;
+    line-height: 120%;
+    
+}
+
+#mapa-caixa {
+    margin: 0 auto;
+    width: 90%;
+    height: calc(90% - 100px);
+    background: rgba(0,0,0,0.1);
+    /* border: 2px solid #D4F2F5; */
+    /* border: 2px dotted #FFF; */
+    border-radius: 10px;
+    /* overflow: scroll; */
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+svg{
+    height: 100%;
+    width: 100%;
+}
+
+/*
+svg .uf{
+     fill: rgba(255, 255, 255, 1);
+    fill-opacity: 0.5;
+    cursor: pointer;
+    stroke: rgba(87, 152, 159, 0.3);
+    stroke-width: 1; 
+}
+
+*/
+svg .uf.ativo {
+    fill: rgba(255, 255, 255, 1);
+    fill-opacity: 0.6;
+}
+svg .destaque{
+    fill: rgba(103, 61, 118,0.8);
+    fill-opacity: 0.5;
+    stroke: rgba(103, 61, 118,0.1);
+    stroke-width: 2;
+    /* pointer-events: none; */
+}
+svg .destaque:hover{
+    stroke: rgba(255, 255, 255, 0.5);
+    stroke-width: 2;
+}
+
+#footer{
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer a{
+    color: rgb(49, 49, 49);;
+}
+
+#footer a:hover{
+    color: rgb(49, 49, 49);;
+}
+
+@media (min-width:280px) and (max-width:500px){
+
+    #uf-titulo{
+        font-size: 0.9em;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        line-height: 120%;
+    }
+        
+
+}
