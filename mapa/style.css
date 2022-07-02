@@ -32,8 +32,6 @@ html, body{
     width: 90%;
     height: calc(90% - 100px);
     background: rgba(0,0,0,0.1);
-    /* border: 2px solid #D4F2F5; */
-    /* border: 2px dotted #FFF; */
     border-radius: 10px;
     /* overflow: scroll; */
     padding: 10px;
@@ -46,16 +44,6 @@ svg{
     width: 100%;
 }
 
-/*
-svg .uf{
-     fill: rgba(255, 255, 255, 1);
-    fill-opacity: 0.5;
-    cursor: pointer;
-    stroke: rgba(87, 152, 159, 0.3);
-    stroke-width: 1; 
-}
-
-*/
 svg .uf.ativo {
     fill: rgba(255, 255, 255, 1);
     fill-opacity: 0.6;
