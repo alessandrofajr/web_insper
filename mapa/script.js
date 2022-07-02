@@ -82,7 +82,7 @@ function marcaUF(elemento, dados){
     let nome = dadosUF[0].nome;
     let densidade = dadosUF[0].densidade
     d3.select(elemento).classed("ativo", true);    
-    d3.select('#uf-titulo').node().textContent = nome + " registrou " + parseFloat(densidade).toFixed(1) + " acessos de internet banda larga a cada 100 habitantes";
+    d3.select('#uf-titulo').node().textContent = nome + " registrou " + parseFloat(densidade).toFixed(1) + " acessos de internet banda larga a cada 100 habitantes em janeiro de 2022";
 }
 
 function desmarcaUF(elemento){
