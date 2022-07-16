@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800,900');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/* 
+ESCONDER DO TERCEIRO PROJETO EM DIANTE
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito, sans-serif;
+    background-color: #F6F6F6;
+    max-width: 880px;
+    margin: 0 auto;    
+}
+
+.header{
+    font-family: PT Sans, sans-serif;
+}
+
+.header h2{
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.intertitle{
+    font-size: 1.3em;
+}
+
+.content{
+    max-width: 550px;
+    margin: 0 auto;    
+}
+
+.content p{
+    font-size: 1.07em;
+}
+
+.content a{
+    color: #1B1B1B;
+    text-decoration: none; 
+    background-color: transparent;
+}
+
+.highlight {
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+}
+  
+.highlight::before {
+    content: '';
+    background-color: #31F3FF;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 5px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+  
+.highlight:hover::before {
+    bottom: 0;
+    height: 85%;
+    margin-bottom: 3px;
+}
+
+.social-icons{
+    padding-left: -12px;
+}
+
+.social-icons a:not(:first-child){
+    padding-left: 12px;
+}
+
+.social-icons .fa {
+    font-size: 1.3em;
+    color: #000;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 50px;
+    background-color: #E3E3E3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 884px;
+}
+
+.project img{
+    vertical-align: bottom;
+}
+
+.project h2{
+    font-size: 1.3em;
+} 
+
+.project-left{
+    grid-column: 1;
+    position: relative;
+}
+
+.caption{
+    grid-column: 1;
+    max-width: fit-content;
+    height: 35px;
+    background-color: #FFF;
+    position: absolute;
+    top: 80%;
+    left: 0px;
+}
+
+.caption span{
+    font-family: PT Sans, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6px;
+    margin: 15px;
+}
+
+.project-right{
+    grid-column: 2;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.project-right a{
+    background-color: #E3E3E3;
+    color: #18272F;
+    font-family: PT Sans, sans-serif;
+    font-size: 0.9em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 6px 15px 6px 15px;
+    border: 1px solid #18272F;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.project-right a:hover{
+    background-color: #18272F;
+    color: #E3E3E3;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.see-more{
+    width:100%;
+    height:100px;
+    background: linear-gradient(to bottom, rgba(246, 246, 246, 0.1) 0%, rgba(246, 246, 246) 100%);
+    margin-top: -2%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.see-more-button{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    position: relative;
+    z-index: 2;
+}
+
+.see-more-button button{
+    background-color: #F6F6F6;
+    color: #18272F;
+    font-family: PT Sans, sans-serif;
+    font-size: 0.9em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 6px 15px 6px 15px;
+    border: 1px solid #18272F;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    cursor: pointer;
+}
+
+.see-more-button button:hover{
+    background-color: #18272F;
+    color: #E3E3E3;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.hidden-projects{
+    margin-top: -115px;
+    height: 115px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.bottom{
+    margin-bottom: 7%;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (min-width:200px) and (max-width:845px){
+    .content{
+        max-width: 360px;
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    .project{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        max-width: 100%;
+        background-color: #F6F6F6;
+        display:inline-block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .project img{
+        width: 100%;
+        vertical-align: bottom;
+    }
+
+    .project-left{
+        grid-column: 1;
+        width: 100%;
+        max-height: 100%;
+        margin: 0;
+    }
+
+    .project-right{
+        grid-column: 1;
+        background-color: #E3E3E3;
+        width: 100%;
+        margin: 0;
+    }
+
+    .project-text{
+        width: 100vw;
+        padding: 10px 20px 20px 20px;
+    }
+    
+    .see-more{
+        height: 150px;
+        margin-top: -15px;
+    }
+
+    .see-more-button{
+        margin-top: -50px;
+    }
+
+    /* .hidden-projects{
+        margin-top: -85px;
+    } */
+
+}
