@@ -59,7 +59,7 @@ mark:hover{
     background-image: linear-gradient(90deg, #31F3FF, #F7F260);
     background-position: 0 55%;
     background-size: 100% 70%;
-    transition: all .3s ease-out;
+    transition: all .4s ease-out;
 }
 
 .social-icons{
